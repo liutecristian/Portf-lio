@@ -1,0 +1,67 @@
+:root {
+
+  /*cores globais*/
+  --principal-red: #E3646E;
+  --principal-purple: #111827;
+  --principal-blue: #3996DB;
+  --principal-green: #82BC4F;
+  --principal-yellow: #EABD5F;
+
+  --base-gray-100: #E2E4E9;
+  --base-gray-200: #C0C4CE;
+  --base-gray-300: #878EA1;
+  --base-gray-400: #292C34;
+  --base-gray-500: #16181D;
+  --base-gray-600: #0D0E11;
+
+  /*tipografia global*/
+  --title-font-family: "Asap", sans-serif;
+  --title-font-weight: bold;
+
+  --title-lg-size: 56px;
+  --title-lg-line-height: 120%;
+  --title-md-size: 24px;
+  --title-md-line-height: 120%;
+  --title-sm-size: 16px;
+  --title-sm-line-height: 120%;
+
+  --subtitle-font-family: "Inconsolata", monospace;
+  --subtitle-font-weight: regular;
+  --subtitle-font-size: 20px;
+  --subtitle-line-height: 120%;
+
+  --text-font-family: "Maven Pro", sans-serif;
+  --text-font-weight: regular;
+  --text-md-size: 16px;
+  --text-md-line-height: 140%;
+  --text-sm-size: 14px;
+  --text-sm-line-height: 140%;
+
+}
+
+
+.asap-<uniquifier> {
+  font-family: "Asap", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inconsolata-<uniquifier> {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.maven-pro-<uniquifier> {
+  font-family: "Maven Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
