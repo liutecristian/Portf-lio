@@ -53,6 +53,14 @@ html {
   background-color: var(--base-gray-500);
 }
 
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
 /*configurações de títulos*/
 h1, h2, h3 {
   font-family: var(--title-font-family);
@@ -83,10 +91,19 @@ h3{
   line-height: var(--subtitle-line-height);
 }
 
+.text-sm, .text-md {
+  font-family: var(--text-font-family);
+  font-weight: var(--text-font-weight);
+}
+
+.text-sm{
+  color: var(--base-gray-300);
+  font-size: var(--text-sm-size);
+  line-height: var(--text-sm-line-height);
+}
+
 .intro {
   display: flex;
-  justify-content: center;
-
   background-image: url("Assets/Background_Intro.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -98,9 +115,8 @@ h3{
 }
 
 .header{
-  display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 680px;
 }
 
 #avatar{
