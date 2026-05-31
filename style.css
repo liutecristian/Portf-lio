@@ -53,13 +53,17 @@ html {
   background-color: var(--base-gray-500);
 }
 
-.flex-center {
+/*Utilitários*/
+
+.flex{
   display: flex;
-  justify-content: center;
   align-items: center;
+  gap: 16px;
+}
+.flex-column {
+  display: flex;
   flex-direction: column;
 }
-
 
 /*configurações de títulos*/
 h1, h2, h3 {
@@ -102,12 +106,20 @@ h3{
   line-height: var(--text-sm-line-height);
 }
 
+.text-md{
+  color: var(--base-gray-200);
+  font-size: var(--text-md-size);
+  line-height: var(--text-md-line-height);
+}
+
+
+/*Formatação da página*/
 .intro {
   display: flex;
   background-image: url("Assets/Background_Intro.png");
-  background-size: cover;
+  background-size: 100%;
+  background-position: center;
   background-repeat: no-repeat;
-  height: 750px;
 }
 
 .info{
@@ -115,14 +127,17 @@ h3{
 }
 
 .header{
-  flex-direction: column;
-  width: 680px;
+  width: 100%;
+  max-width: 800px;
+  gap: 80px;
+  align-self: center;
 }
 
 #avatar{
   position: relative;
   height: 112px;
   width: 112px;
+  align-self: center;
 }
 
 #user, #picture{
@@ -153,3 +168,28 @@ h3{
 .simples{
   color: var(--base-gray-200);
 }
+
+.title{
+  gap: 8px;
+}
+
+.text{
+  text-align: center;
+  gap: 20px;
+}
+
+.tags{
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tag{
+  background-color: var(--base-gray-400);
+  padding: 8px 16px;
+  border-radius: 50px;
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+
