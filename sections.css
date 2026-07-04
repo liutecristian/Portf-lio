@@ -1,0 +1,83 @@
+/*Formatação da página*/
+.intro {
+  display: flex;
+  background-image: url("Assets/Background_Intro.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.info{
+  margin: 120px 163px;
+}
+
+.header{
+  width: 100%;
+  max-width: 800px;
+  gap: 80px;
+  align-self: center;
+}
+
+#avatar{
+  position: relative;
+  height: 112px;
+  width: 112px;
+  align-self: center;
+}
+
+#user, #picture{
+  border-radius: 50%;
+}
+ 
+#user{
+  display: flex;
+  height: 96px;
+  width: 96px;
+  border: 2px solid var(--principal-red);
+  justify-content: center;
+  align-items: center;
+}
+
+#picture {
+  height: 85px;
+  width: 85px;
+  overflow: hidden;
+}
+
+#code{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.simples{
+  color: var(--base-gray-200);
+}
+
+.title{
+  gap: 8px;
+}
+
+.text{
+  text-align: center;
+  gap: 20px;
+}
+
+.tags{
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tag{
+  background-color: var(--base-gray-400);
+  padding: 8px 16px;
+  border-radius: 50px;
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.down{
+  margin-top: 80px;
+}
