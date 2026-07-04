@@ -8,7 +8,7 @@
 }
 
 .info{
-  margin: 120px 163px;
+  margin: 120px 163px 60px 163px;
 }
 
 .header{
@@ -80,4 +80,12 @@
 
 .down{
   margin-top: 80px;
+}
+
+.projects{
+  display: flex;
+  flex-direction: column;
+  min-height: 900px;
+  gap: 8px;
+  padding: 72px 0;
 }
