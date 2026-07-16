@@ -72,4 +72,23 @@ h3{
     filter: brightness(0) saturate(100%) invert(62%) sepia(20%) saturate(1000%) hue-rotate(90deg) brightness(100%);
 }
 
+.project-card{
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--base-gray-400);
+  padding: 12px;
+  border-radius: 12px;
+  gap: 20px;
+}
 
+.project-thumb img{
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.project-title{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

@@ -85,7 +85,14 @@
 .projects{
   display: flex;
   flex-direction: column;
-  min-height: 900px;
   gap: 8px;
   padding: 72px 0;
+}
+
+#meu-trabalho{
+  margin-bottom: 56px
+}
+
+.projects{
+  align-items: center;
 }
