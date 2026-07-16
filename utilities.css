@@ -11,9 +11,22 @@
 
 .flex-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 24px;
   width: 100%;
   max-width: 1040px;
+  margin: 0 auto;
+}
+
+.m-bottom-56{
+  margin-bottom: 56px
+}
+
+.flex-grid-880 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  width: 100%;
+  max-width: 888px;
   margin: 0 auto;
 }

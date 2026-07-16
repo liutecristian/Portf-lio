@@ -92,3 +92,9 @@ h3{
   flex-direction: column;
   gap: 8px;
 }
+
+.service-card{
+  padding: 20px;
+  border: 3px solid var(--base-gray-500);
+  border-radius: 12px;
+}
