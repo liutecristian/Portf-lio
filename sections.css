@@ -95,3 +95,13 @@
   padding: 80px 0 120px;
   background-color: var(--base-gray-600);
 }
+
+.contact{
+  align-items: center;
+  padding: 128px 0 200px;
+  background-image: url("Assets/Background_Contacts.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
